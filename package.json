@@ -1,0 +1,42 @@
+{
+  "name": "prompt-pointer",
+  "description": "Cross-platform prompt pointers. ",
+  "version": "1.0.0",
+  "homepage": "https://github.com/enquirer/prompt-pointer",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "enquirer/prompt-pointer",
+  "bugs": {
+    "url": "https://github.com/enquirer/prompt-pointer/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "pointer",
+    "prompt"
+  ],
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
