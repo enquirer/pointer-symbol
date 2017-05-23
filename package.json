@@ -1,12 +1,12 @@
 {
-  "name": "prompt-pointer",
-  "description": "Cross-platform prompt pointers. ",
+  "name": "pointer-symbol",
+  "description": "Cross-platform pointer symbols for prompts.",
   "version": "1.0.0",
-  "homepage": "https://github.com/enquirer/prompt-pointer",
+  "homepage": "https://github.com/enquirer/pointer-symbol",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "enquirer/prompt-pointer",
+  "repository": "enquirer/pointer-symbol",
   "bugs": {
-    "url": "https://github.com/enquirer/prompt-pointer/issues"
+    "url": "https://github.com/enquirer/pointer-symbol/issues"
   },
   "license": "MIT",
   "files": [
@@ -19,13 +19,14 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "pointer",
-    "prompt"
-  ],
   "devDependencies": {
     "gulp-format-md": "^0.1.12"
   },
+  "keywords": [
+    "pointer",
+    "prompt",
+    "symbol"
+  ],
   "verb": {
     "toc": false,
     "layout": "default",
